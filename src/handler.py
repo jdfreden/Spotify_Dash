@@ -13,7 +13,7 @@ def handle(like_pl_id, dislike_pl_id, query):
 
     scope = "user-library-read"
     sp = spotipy.Spotify(auth_manager=spotipy.SpotifyOAuth(client_id="7eb0e8ee2ac24dbd8cc926961c21c2fe",
-                                                           client_secret="fe795e0781ae479986c8c0a6560b25b5",
+                                                           client_secret=,
                                                            redirect_uri="http://localhost:8080",
                                                            scope=scope))
 
